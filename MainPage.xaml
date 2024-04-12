@@ -5,16 +5,17 @@
              Shell.NavBarIsVisible="False"
              xmlns:local="clr-namespace:Pinch;assembly=Pinch">
 
-    <ScrollView>
+    <StackLayout>
         <Grid>
-            <local:PinchToZoomContainer>
-                <Image
-                Source="calaycay.jpg"
-                HeightRequest="300"
-                Aspect="AspectFit"
-                SemanticProperties.Description="Matthew Cedric Calaycay omg" />
-            </local:PinchToZoomContainer>
+            <local:PinchZoom>
+                <local:PinchZoom.Content>
+                    <Image 
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Source="calaycay.jpg" />
+                </local:PinchZoom.Content>
+            </local:PinchZoom>
         </Grid>
-    </ScrollView>
+    </StackLayout>
 
 </ContentPage>

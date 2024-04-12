@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pinch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+28b1c0c845496ddbae477f01ecdbd9b25c85ec5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pinch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pinch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
